@@ -1,0 +1,20 @@
+.bg{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#b2:hover{
+    background-color: green;
+}
+#h1{
+    font-size: 30px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow: 1px 1px 40px darkblue;}    
+}
